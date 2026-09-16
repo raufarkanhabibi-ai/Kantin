@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('WhatsApp\ Image\ 2025-05-14\ at\ 08.05.11_a51f29c2.jpg'); /* Ganti dengan URL gambar background */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    width: 300px;
+}
+
+.header {
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: white;
+}
+
+input {
+    padding: 8px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 7px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-btn, .back-btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-btn {
+    background-color: #00bcd4; 
+    color: white;
+}
+
+.back-btn {
+    background-color: #f44336;
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+}

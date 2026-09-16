@@ -1,0 +1,59 @@
+body {
+     background-image: url('WhatsApp\ Image\ 2025-05-14\ at\ 08.05.11_a51f29c2.jpg'); 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 25px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 5px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e9ecef;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-cancel a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-save {
+    background-color: #28a745; /* Hijau */
+}
+
+.btn-cancel {
+    background-color: #dc3545; /* Merah */
+}

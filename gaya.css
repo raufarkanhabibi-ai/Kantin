@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('WhatsApp\ Image\ 2025-05-14\ at\ 08.05.11_a51f29c2.jpg');
+    background-size: cover;
+    margin: 0;
+    color: white;
+}
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: right;
+    margin-bottom: 0px;
+    height: 100px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    color: orange;
+}
+
+.welcome {
+    background-color: rgb(3, 79, 130);
+    padding: 20px;
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.total-outlet, .total-transaksi {
+    background-color: rgba(4, 68, 185, 0.555);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+.total-transaksi a{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.buttons a {
+    text-decoration: none;
+    color: aqua;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.639);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    color: aqua;
+}
+
+button:hover {
+    background-color: rgba(211, 211, 211, 0.9);
+}
+
+.tombol {
+    border: none;
+    border-radius: 5px;
+    padding:  10px;
+    padding-left:15px;
+    margin: 5px;
+    cursor:pointer;
+    margin-bottom: 200px;
+}
+.tombol a {
+    text-decoration: none;
+}
+header .tombol {
+    margin-bottom: 200px;
+}
+
+.tombol:hover{
+    background-color: white;
+    transition: 0,2s;
+}
+img {
+    height: 80px;
+    margin-right: 1000px;
+}
